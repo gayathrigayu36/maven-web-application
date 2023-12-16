@@ -5,6 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Sample WebPage- Home Page</title>
+<link href="images/Mylogo.jpg" rel="icon">
 </head>
 </head>
 <body>
@@ -29,6 +30,9 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <%out.print( "Client Name Host :: "+ request.getRemoteHost() );%><br></h1>
 <hr>
 <div style="text-align: center;">
+	<span>
+		<img src="images/Mylogo.jpg" alt="" width="100">
+	</span>
 	<span style="font-weight: bold;">
 		Bangalore,
 		+91-8106919984
